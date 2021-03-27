@@ -4,7 +4,7 @@
   "description": "Pure JS time app",
   "main": "index.js",
   "scripts": {
-    "dev": "parcel ./src/index.html -p 3000 --open",
+    "dev": "parcel ./src/index.html -p 3000 --open --no-source-maps --no-cache",
     "build": "parcel build ./src/index.html --no-source-maps --no-cache"
   },
   "author": "Ignatenko",

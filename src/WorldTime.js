@@ -36,9 +36,11 @@ export class WorldTime {
   #addActiveClass = ({ zones, target }) => {
     zones.forEach((element) => {
       element.classList.remove("active");
+      element.disabled = false;
     });
 
     target.classList.add("active");
+    target.disabled = true;
   };
 
   update() {
